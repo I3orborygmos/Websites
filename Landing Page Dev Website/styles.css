@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+
+body    {       background-color: #D6E5B2;}
+img     {       padding: 10px;  
+                width: 300px;
+                height: 300px;
+                float: left;
+                margin-left: 15px;}
+.box    {       margin-top: 150px;
+                padding-right: 200px;
+                padding-left: 100px;}
+ul     {        display: flex;
+                height: 50px;
+                width: 400px;
+                font-size: 20px;
+                padding-right: 20px;
+                padding-left: 20px;
+                margin: auto;
+                overflow: hidden;
+                list-style-type: none;
+                background-color: #EA5D7D; }
+li a    {       display:grid;
+                margin-right: 10px;
+                text-decoration: none;
+                color: white;
+                padding: 14px 16px;}
+li a:hover {    background-color: #853548;
+                animation-name: fontChange;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;}     
+                @keyframes fontChange{
+                    0%  {font-family: 'Sedgwick Ave Display', cursive;}
+                    20% {font-family: 'Source Serif Pro', serif;}
+                    40% {font-family: 'DynaPuff', cursive;} 
+                    60% {font-family: 'Amatic SC', cursive;}
+                    80% {font-family: 'Trade Winds', cursive;} 
+                    100% {font-family: 'Sedgwick Ave Display', cursive;} }
+
+
+
